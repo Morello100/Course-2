@@ -1,0 +1,298 @@
+:root{
+--title-text-color:#212121;  
+--paragraph-text-color:#757575;
+--hover-color:#2196F3;
+--background-hero-color:#F5F4FA;
+--background-color:#2F303A;
+--fontsize-text: 14px;
+
+}
+
+body{
+    font-family: Roboto, sans-serif;  
+}
+.header{
+color: var(--background-hero-color)
+}
+
+.link{
+    text-decoration: none;
+    font-style: normal;
+}
+
+.list{
+    list-style: none;
+}
+
+.current{
+color: var(--hover-color);
+font-size: var(--fontsize-text);
+font-weight: 500;
+line-height: 1.1;
+letter-spacing: 0.02em;
+
+}
+    
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/* Логотип */
+
+.logo{
+
+    font-size: 26px;
+    letter-spacing: 0.03em;
+}
+
+.logo-first-part{
+    color: var(--hover-color) ;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.logo-second-part{
+color: var(--title-text-color);
+font-family: Oleo Script, sans-serif;
+font-weight: 400;
+line-height: 1.4; 
+/* Друга частина лого: в домашці написано що має має використовуватися Oleo Script але він взагалі не схожий */
+}
+
+/* Навігація по сторінках */
+
+
+.pagination{
+color: var(--title-text-color);
+font-size: var(--fontsize-text);
+font-weight: 500;
+line-height: 1.1;
+letter-spacing: 0.02em;
+}
+
+.pagination:hover,
+.pagination:focus{
+    color: #2196F3;
+}
+
+/* Контактні дані */
+
+.contacts {
+color: var(--paragraph-text-color);
+font-size: var(--fontsize-text);
+font-weight: 500;
+line-height: 1.1;
+letter-spacing: 0.02em;
+}   
+
+.contacts:hover,
+.contacts:focus{
+color: var(--hover-color);
+}
+
+/* Секція замовлення послуги */
+
+.cta-section{
+    background-color:#2F303A ;
+}
+
+.slogan{
+color: var(--background-hero-color);
+font-size: 44px;
+font-weight: 900;
+line-height: 1.4;
+letter-spacing: 0.06em;
+text-align: center;
+text-transform: uppercase;
+}
+
+.cta-button{
+color: var(--background-hero-color);
+background-color: var(--hover-color);
+font-size: 16px;
+font-weight: 700;
+line-height: 1.8;
+letter-spacing: 0.06em;
+cursor: pointer;
+font-family: inherit;
+
+
+/* display: flex;
+align-items: center;
+text-align: center;  
+У Діми є ці значення але вони ні на що не впливають*/
+} 
+
+/* переваги */
+
+.benefits{
+    background-color: var(--background-hero-color);
+}
+    
+.benefits-title{
+color: var(--title-text-color);
+font-size: 14px;
+font-weight: 700;
+line-height: 1.1;
+letter-spacing: 0.03em;
+
+}
+
+.benefits-text{
+color: var(--paragraph-text-color);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.7;
+letter-spacing: 0.03em;
+
+}
+
+/* Наша робота */
+.our-work{
+background-color: var(--background-hero-color);
+}
+
+.our-work-title{
+color: var(--title-text-color);
+font-size: 36px;
+font-weight: 700;
+line-height: 1.2;
+letter-spacing: 0.03em;
+text-align: center;
+
+}
+
+/* Наша команда */
+
+.our-team{
+    background-color: var(--background-hero-color);
+}
+
+.our-team-title{
+color: var(--title-text-color);
+font-size: 36px;
+font-weight: 700;
+line-height: 1.2;
+letter-spacing: 0.03em;
+text-align: center;
+}
+
+.person-name-title{
+color: var(--title-text-color);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.03em;
+
+}
+
+.person-name-text{
+color: var(--paragraph-text-color);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.2;
+letter-spacing: 0.03em;
+
+}
+
+/* футер студії */
+
+.footer{
+background-color: var(--background-color);
+}
+
+.logo-footer-second-part{
+color: var(--background-hero-color);
+font-family: Oleo Script, sans-serif;
+font-weight: 400;
+line-height: 1.4; /* Друга частина лого: в домашці написано що має має використовуватися Oleo Script але він взагалі не схожий */
+
+}
+
+.street-address{
+color: var(--background-hero-color);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+
+.street-address:hover,
+.street-address:focus{
+    color: #2196F3;
+}
+
+.contacts-footer{
+    color: var(--paragraph-text-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.contacts-footer:hover,
+.contacts-footer:focus{
+    color: #2196F3;
+}
+
+/* Фільтрація обєктів */
+
+.filter-categories{
+    background-color: var(--background-hero-color);
+}
+
+.button-filter{
+color: var(--title-text-color);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.6;
+letter-spacing: 0.03em;
+cursor: pointer;
+background: #F5F4FA;
+font-family: inherit;
+/*  text-align: center; знову ні на що не впливає */
+
+
+}
+
+.button-filter:hover,
+.button-filter:focus{
+background-color: var(--hover-color);
+color: var(--background-hero-color);
+}
+
+/* портфоліо */
+
+.finished-works{
+    background-color: var(--background-hero-color);
+}
+
+.work-list{
+text-decoration: none;
+}
+
+.work-name{
+color: var(--title-text-color);
+font-size: 18px;
+font-weight: 700;
+line-height: 2;
+letter-spacing: 0.06em;
+
+}
+
+.class-name{
+color: var(--paragraph-text-color);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.9;
+letter-spacing: 0.03em;
+}
